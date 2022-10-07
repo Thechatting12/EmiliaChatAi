@@ -29,43 +29,43 @@
             "description": "Your Support Group without @",
             "required": true
         },
-        "STICKER": {
+        "STKR": {
             "description": "Sticker for start ",
             "required": true
         },
-        "STICKER1": {
+        "STKR1": {
             "description": "Sticker for start ",
             "required": true
         },
-        "STICKER2": {
+        "STKR2": {
             "description": "Sticker for start ",
             "required": true
         },
-        "STICKER3": {
+        "STKR3": {
             "description": "Sticker for start ",
             "required": true
         },
-        "STICKER4": {
+        "STKR4": {
             "description": "Sticker for start ",
             "required": true
         },
-        "STICKER5": {
+        "STKR5": {
             "description": "Sticker for start ",
             "required": true
         },
-        "STICKER6": {
+        "STKR6": {
             "description": "Sticker for start ",
             "required": true
         },
-        "STICKER7": {
+        "STKR7": {
             "description": "Sticker for start ",
             "required": true
         },
-       "STICKER8": {
+       "STKR8": {
             "description": "Sticker for start ",
             "required": true
         },
-        "STICKER9": {
+        "STKR9": {
             "description": "Sticker for start ",
             "required": true
         },
