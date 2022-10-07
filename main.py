@@ -1,5 +1,5 @@
-#Don't remove This Line From Here. @Dev_Arora_0981 | @DevArora0981
-#Github :- Devarora0981 | Devarora0987
+#Never remove This Line From Here. @PiyushMalviyaOfficially | @JoinIndianNavy_007
+#Github :- TeamPiyushRepos | TeamPiyushRepos
 from pyrogram import Client, filters
 from pyrogram.types import *
 from pymongo import MongoClient
@@ -43,7 +43,7 @@ STKR8 = os.environ.get("STKR8", None)
 STKR9 = os.environ.get("STKR9", None)
 
 bot = Client(
-    "VickBot" ,
+    "Emilia" ,
     api_id = API_ID,
     api_hash = API_HASH ,
     bot_token = BOT_TOKEN
@@ -99,39 +99,41 @@ STICKER = [
 ]
 START = f"""
 **๏ ʜᴇʏ, ɪ ᴀᴍ [{BOT_NAME}]({START_IMG1})**
+**➻ ʜᴏɪ ᴍᴇʀᴀ ɴᴀᴀᴍ ʜᴀɪ ᴇᴍɪʟɪᴀ ᴀᴜʀ ᴍᴇɪɴ ᴇᴋ ᴄʜᴀᴛʙᴏᴛ ʜᴜ**
+**➻ ᴀᴀᴘꜱᴇ ᴍɪʟᴋᴀʀ ᴀᴄʜᴀ ʟɢᴀᴀ , ᴋʏᴀ ᴀᴀᴘ ᴍᴜᴊʜꜱᴇ ʙᴀᴀᴛ ᴋʀᴏɢᴇ?**
 **➻ ᴀɴ ᴀɪ ʙᴀsᴇᴅ ᴄʜᴀᴛʙᴏᴛ**
 **──────────────**
 **➻ ᴜsᴀɢᴇ /chatbot [ᴏɴ/ᴏғғ]**
 <b>||๏ ʜɪᴛ ʜᴇʟᴘ ʙᴜᴛᴛᴏɴ ғᴏʀ ʜᴇʟᴘ.||</b>
 """
-DEV_OP = [
+PIYUSH = [
     [
-        InlineKeyboardButton(text="🥀 ᴏᴡɴᴇʀ 🥀", url=f"tg://settings"),
-        InlineKeyboardButton(text="✨ ꜱᴜᴘᴘᴏʀᴛ ✨", url=f"https://t.me/{SUPPORT_GRP}"),
+        InlineKeyboardButton(text=" ᴏᴡɴᴇʀ ", url=f"tg://settings"),
+        InlineKeyboardButton(text=" ꜱᴜᴘᴘᴏʀᴛ ", url=f"https://t.me/{SUPPORT_GRP}"),
     ],
     [
         InlineKeyboardButton(
-            text="🧸 ᴀᴅᴅ ᴍᴇ ʙᴀʙʏ 🧸",
+            text=" ᴀᴅᴅ ᴋʀʟᴏ ᴍᴜᴊʜᴇ ",
             url=f"https://t.me/{BOT_USERNAME}?startgroup=true",
         ),
     ],
     [
-        InlineKeyboardButton(text="🚀 ʜᴇʟᴘ & ᴄᴍᴅs 🚀", callback_data="HELP"),
+        InlineKeyboardButton(text=" ʜᴇʟᴘ & ᴄᴍᴅs ", callback_data="HELP"),
     ],
     [
-        InlineKeyboardButton(text="❄️ sᴏᴜʀᴄᴇ ❄️", callback_data="SOURCE"),
-        InlineKeyboardButton(text="☁️ ᴀʙᴏᴜᴛ ☁️", callback_data="ABOUT"),
+        InlineKeyboardButton(text=" sᴏᴜʀᴄᴇ ", callback_data="SOURCE"),
+        InlineKeyboardButton(text=" ᴀʙᴏᴜᴛ ", callback_data="ABOUT"),
     ],
 ]
 PNG_BTN = [
     [
          InlineKeyboardButton(
-             text="🧸 ᴀᴅᴅ ᴍᴇ ʙᴀʙʏ 🧸",
+             text=" ᴀᴅᴅ ᴋʀʟᴏ ᴍᴜᴊʜᴇ ",
              url=f"https://t.me/{BOT_USERNAME}?startgroup=true",
          ),
      ],
      [
-         InlineKeyboardButton(text="✨ sᴜᴘᴘᴏʀᴛ ✨", 
+         InlineKeyboardButton(text=" sᴜᴘᴘᴏʀᴛ ", 
                               url=f"https://t.me/{SUPPORT_GRP}",
          ),
      ],
@@ -145,16 +147,16 @@ HELP_READ = f"""
 """
 BACK = [
      [
-           InlineKeyboardButton(text="✨ ʙᴀᴄᴋ ✨", callback_data="BACK"),
+           InlineKeyboardButton(text= ʙᴀᴄᴋ ", callback_data="BACK"),
      ],
 ]
 HELP_BTN = [
      [
-          InlineKeyboardButton(text="🐳 ᴄʜᴀᴛʙᴏᴛ 🐳", callback_data="CHATBOT_CMD"),
+          InlineKeyboardButton(text=" ᴄʜᴀᴛʙᴏᴛ ", callback_data="CHATBOT_CMD"),
      ],
      [
-          InlineKeyboardButton(text="🎄 ᴛᴏᴏʟs 🎄", callback_data="TOOLS_DATA"),
-          InlineKeyboardButton(text="✨ ʙᴀᴄᴋ ✨", callback_data="BACK"),
+          InlineKeyboardButton(text=" ᴛᴏᴏʟs ", callback_data="TOOLS_DATA"),
+          InlineKeyboardButton(text=" ʙᴀᴄᴋ ", callback_data="BACK"),
      ],
 ]
 
@@ -182,25 +184,25 @@ CHATBOT_READ = f"""
 """
 CHATBOT_BACK = [
         [     
-              InlineKeyboardButton(text="✨ ʙᴀᴄᴋ ✨", callback_data="CHATBOT_BACK"),
+              InlineKeyboardButton(text=" ʙᴀᴄᴋ ", callback_data="CHATBOT_BACK"),
         ],
 ]
 
 ABOUT_BTN = [
       [
-           InlineKeyboardButton(text="🎄 sᴜᴘᴘᴏʀᴛ 🎄", url=f"https://t.me/{SUPPORT_GRP}"),  
-           InlineKeyboardButton(text="🚀 ʜᴇʟᴘ 🚀", callback_data="HELP"),
+           InlineKeyboardButton(text=" sᴜᴘᴘᴏʀᴛ ", url=f"https://t.me/{SUPPORT_GRP}"),  
+           InlineKeyboardButton(text=" ʜᴇʟᴘ ", callback_data="HELP"),
       ],
       [    
-           InlineKeyboardButton(text="🍾 ᴏᴡɴᴇʀ 🍾", url=f"https://t.me/{OWNER_USERNAME}"), 
-           InlineKeyboardButton(text="❄️ sᴏᴜʀᴄᴇ ❄️", callback_data="SOURCE"),
+           InlineKeyboardButton(text=" ᴏᴡɴᴇʀ ", url=f"https://t.me/{OWNER_USERNAME}"), 
+           InlineKeyboardButton(text=" sᴏᴜʀᴄᴇ ", callback_data="SOURCE"),
       ],
       [ 
-           InlineKeyboardButton(text="🐳 ᴜᴘᴅᴀᴛᴇs 🐳", url=f"https://t.me/{UPDATE_CHNL}"),  
-           InlineKeyboardButton(text="✨ ʙᴀᴄᴋ ✨", callback_data="BACK"),
+           InlineKeyboardButton(text=" ᴜᴘᴅᴀᴛᴇs ", url=f"https://t.me/{UPDATE_CHNL}"),  
+           InlineKeyboardButton(text=" ʙᴀᴄᴋ ", callback_data="BACK"),
       ],
 ]
-SOURCE_READ = f"**ʜᴇʏ, ᴛʜᴇ sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ ᴏғ [{BOT_NAME}](https://t.me/{BOT_USERNAME}) ɪs ɢɪᴠᴇɴ ʙᴇʟᴏᴡ.**\n**ᴘʟᴇᴀsᴇ ғᴏʀᴋ ᴛʜᴇ ʀᴇᴘᴏ & ɢɪᴠᴇ ᴛʜᴇ sᴛᴀʀ ✯**\n**──────────────────**\n**ʜᴇʀᴇ ɪs ᴛʜᴇ [sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ](https://github.com/Devarora0981/Vick)**\n**──────────────────**\n**ɪғ ʏᴏᴜ ғᴀᴄᴇ ᴀɴʏ ᴘʀᴏʙʟᴇᴍ ᴛʜᴇɴ ᴄᴏɴᴛᴀᴄᴛ ᴀᴛ [sᴜᴘᴘᴏʀᴛ ᴄʜᴀᴛ](https://t.me/{SUPPORT_GRP}).\n<b>||©️ @{OWNER_USERNAME}||</b>"
+SOURCE_READ = f"**ʜᴇʏ, ᴛʜᴇ sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ ᴏғ [{BOT_NAME}](https://t.me/{BOT_USERNAME}) ɪs ɢɪᴠᴇɴ ʙᴇʟᴏᴡ.**\n**ᴘʟᴇᴀsᴇ ғᴏʀᴋ ᴛʜᴇ ʀᴇᴘᴏ & ɢɪᴠᴇ ᴛʜᴇ sᴛᴀʀ ✯**\n**──────────────────**\n**ʜᴇʀᴇ ɪs ᴛʜᴇ [sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ](https://github.com/TeamPiyushRepos/EmiliaChatAi)**\n**──────────────────**\n**ɪғ ʏᴏᴜ ғᴀᴄᴇ ᴀɴʏ ᴘʀᴏʙʟᴇᴍ ᴛʜᴇɴ ᴄᴏɴᴛᴀᴄᴛ ᴀᴛ [sᴜᴘᴘᴏʀᴛ ᴄʜᴀᴛ](https://t.me/{SUPPORT_GRP}).\n<b>||©️ @{OWNER_USERNAME}||</b>"
 
 ABOUT_READ = f"""
 **➻ [{BOT_NAME}](https://t.me/{BOT_USERNAME}) ɪs ᴀɴ ᴀɪ ʙᴀsᴇᴅ ᴄʜᴀᴛ-ʙᴏᴛ.**
@@ -216,13 +218,13 @@ async def restart(client, m: Message):
         accha = await m.reply_text(
             text = random.choice(EMOJIOS),
         )
-        await asyncio.sleep(1.3)
-        await accha.edit("__ᴅιиg ᴅσиg ꨄ︎ ѕтαятιиg..__")
-        await asyncio.sleep(0.2)
-        await accha.edit("__ᴅιиg ᴅσиg ꨄ sтαятιиg.....__")
-        await asyncio.sleep(0.2)
-        await accha.edit("__ᴅιиg ᴅσиg ꨄ︎ sтαятιиg..__")
-        await asyncio.sleep(0.2)
+        await asyncio.sleep(1.8)
+        await accha.edit("__ᴋᴜɴᴅɪ ʟɢᴀᴀʟᴏ ꜱᴀɪʏᴀᴀɴ......__")
+        await asyncio.sleep(0.6)
+        await accha.edit("__ᴛᴜᴍᴀᴋᴏ ᴊᴀɴɴᴀᴛ ᴅɪᴋʜᴀᴀᴛɪ ᴍᴇɪɴ ᴊᴀɴɴᴀᴛ ᴅɪᴋʜᴀᴛɪ........__")
+        await asyncio.sleep(0.6)
+        await accha.edit("__ᴍᴇɪɴ ᴊᴀɴɴᴀᴛ ᴅɪᴋʜᴀᴛɪ ᴏʏᴇ ʜᴏʏᴇ ᴏʏᴇ ʜᴏʏᴇ......__")
+        await asyncio.sleep(0.6)
         await accha.delete()
         umm = await m.reply_sticker(
             sticker = random.choice(STICKER),
@@ -232,18 +234,18 @@ async def restart(client, m: Message):
         await m.reply_photo(
             photo = random.choice(PHOTO),
             caption=f"""**๏ ʜᴇʏ, ɪ ᴀᴍ [{BOT_NAME}](t.me/{BOT_USERNAME})**\n**➻ ᴀɴ ᴀɪ ʙᴀsᴇᴅ ᴄʜᴀᴛʙᴏᴛ.**\n**──────────────**\n**➻ ᴜsᴀɢᴇ /chatbot [ᴏɴ/ᴏғғ]**\n<b>||๏ ʜɪᴛ ʜᴇʟᴘ ʙᴜᴛᴛᴏɴ ғᴏʀ ʜᴇʟᴘ||</b>""",
-            reply_markup=InlineKeyboardMarkup(DEV_OP),
+            reply_markup=InlineKeyboardMarkup(PIYUSH),
         )
     else:
         await m.reply_text(
                       text = START,
-                      reply_markup = InlineKeyboardMarkup(DEV_OP),
+                      reply_markup = InlineKeyboardMarkup(PIYUSH),
    )
 
 @bot.on_callback_query()
 async def cb_handler(Client, query: CallbackQuery):
-    vickdb = MongoClient(MONGO_URL)
-    vick = vickdb["VickDb"]["Vick"]
+    emiliadb = MongoClient(MONGO_URL)
+    emilia = emiliadb["EmiliaDb"]["Emilia"]
     if query.data == "HELP":
         await query.message.edit_text(
                       text = HELP_READ,
@@ -253,7 +255,7 @@ async def cb_handler(Client, query: CallbackQuery):
     elif query.data == "BACK":
             await query.message.edit(
                   text = START,
-                  reply_markup=InlineKeyboardMarkup(DEV_OP),
+                  reply_markup=InlineKeyboardMarkup(PIYUSH),
      )
     elif query.data == "SOURCE":
             await query.message.edit(
@@ -300,11 +302,11 @@ async def cb_handler(Client, query: CallbackQuery):
                 show_alert=True,
             )
         else:
-            is_vick = vick.find_one({"chat_id": query.message.chat.id})
-            if not is_vick:           
+            is_emilia = emilia.find_one({"chat_id": query.message.chat.id})
+            if not is_emilia:           
                 await query.edit_message_text(f"**ᴄʜᴀᴛ-ʙᴏᴛ ᴀʟʀᴇᴀᴅʏ ᴇɴᴀʙʟᴇᴅ.**")
-            if is_vick:
-                vick.delete_one({"chat_id": query.message.chat.id})
+            if is_emilia:
+                emilia.delete_one({"chat_id": query.message.chat.id})
                 await query.edit_message_text(f"**ᴄʜᴀᴛ-ʙᴏᴛ ᴇɴᴀʙʟᴇᴅ ʙʏ** {query.from_user.mention}.")
     elif query.data == "rmchat":
         if query.from_user.id not in (await is_admins(query.message.chat.id)):
@@ -313,11 +315,11 @@ async def cb_handler(Client, query: CallbackQuery):
                 show_alert=True,
             )
         else:
-            is_vick = vick.find_one({"chat_id": query.message.chat.id})
-            if not is_vick:
-                vick.insert_one({"chat_id": query.message.chat.id})
+            is_emilia = emilia.find_one({"chat_id": query.message.chat.id})
+            if not is_emilia:
+                emilia.insert_one({"chat_id": query.message.chat.id})
                 await query.edit_message_text(f"**ᴄʜᴀᴛ-ʙᴏᴛ ᴅɪsᴀʙʟᴇᴅ ʙʏ** {query.from_user.mention}.")
-            if is_vick:
+            if is_emilia:
                 await query.edit_message_text("**ᴄʜᴀᴛ-ʙᴏᴛ ᴀʟʀᴇᴀᴅʏ ᴅɪsᴀʙʟᴇᴅ.**")
                             
 @bot.on_message(filters.command("repo"))
@@ -337,19 +339,19 @@ async def restart(client, message):
 @bot.on_message(filters.command("ping", prefixes=["+", "/", "-", "?", "$", "&"]))
 async def ping(client, message: Message):
         start = datetime.now()
-        t = "__ριиgιиg...__"
+        t = "__ᴘɪɴɢ ʜᴏ ʀʜᴀᴀ ʜᴀɪ...__"
         txxt = await message.reply(t)
         await asyncio.sleep(0.25)
-        await txxt.edit_text("__ριиgιиg.....__")
+        await txxt.edit_text("__ᴘɪɴɢ ʜᴏ ʀʜᴀᴀ ʜᴀɪ....__")
         await asyncio.sleep(0.25)
-        await txxt.edit_text("__ριиgιиg...__")
+        await txxt.edit_text("__ᴘɪɴɢ ʜᴏ ʀʜᴀᴀ ʜᴀɪ....__")
         await asyncio.sleep(0.35)
         await txxt.delete()
         end = datetime.now()
         ms = (end-start).microseconds / 1000
         await message.reply_photo(
                              photo=random.choice(PHOTO),
-                             caption=f"нey вαву!!\n**[{BOT_NAME}](t.me/{BOT_USERNAME})** ιѕ alιve 🥀 αnd worĸιng ғιne wιтн a pιng oғ\n➥ `{ms}` ms\n\n<b>||мαdє ωιтн ❣️ ву [Ꭰev🎋](https://t.me/Dev_Arora_0981)||</b>",
+                             caption=f"нey вαву!!\n**[{BOT_NAME}](t.me/{BOT_USERNAME})** ιѕ alιve 🥀 αnd worĸιng ғιne wιтн a pιng oғ\n➥ `{ms}` ms\n\n<b>||мαdє ωιтн ❣️ ву [ᴘɪʏᴜꜱʜ](https://t.me/PiyushMalviyaOfficially)||</b>",
                              reply_markup=InlineKeyboardMarkup(PNG_BTN),
        )
 
@@ -382,16 +384,16 @@ async def chatonoff(client: Client, message: Message):
     & ~filters.private
     & ~filters.bot,
 )
-async def vickai(client: Client, message: Message):
+async def emiliaai(client: Client, message: Message):
 
    chatdb = MongoClient(MONGO_URL)
    chatai = chatdb["Word"]["WordDb"]   
 
    if not message.reply_to_message:
-       vickdb = MongoClient(MONGO_URL)
-       vick = vickdb["VickDb"]["Vick"] 
-       is_vick = vick.find_one({"chat_id": message.chat.id})
-       if not is_vick:
+       emiliadb = MongoClient(MONGO_URL)
+       emilia = emiliadb["EmiliaDb"]["Emilia"] 
+       is_emilia = emilia.find_one({"chat_id": message.chat.id})
+       if not is_emilia:
            await bot.send_chat_action(message.chat.id, "typing")
            K = []  
            is_chat = chatai.find({"word": message.text})  
@@ -408,13 +410,13 @@ async def vickai(client: Client, message: Message):
                    await message.reply_text(f"{hey}")
    
    if message.reply_to_message:  
-       vickdb = MongoClient(MONGO_URL)
-       vick = vickdb["VickDb"]["Vick"] 
-       is_vick = vick.find_one({"chat_id": message.chat.id})    
+       emiliadb = MongoClient(MONGO_URL)
+       emilia = emiliadb["EmiliaDb"]["Emilia"] 
+       is_emilia = emilia.find_one({"chat_id": message.chat.id})   
        getme = await bot.get_me()
        bot_id = getme.id                             
        if message.reply_to_message.from_user.id == bot_id: 
-           if not is_vick:                   
+           if not is_emilia:                   
                await bot.send_chat_action(message.chat.id, "typing")
                K = []  
                is_chat = chatai.find({"word": message.text})
@@ -448,16 +450,16 @@ async def vickai(client: Client, message: Message):
     & ~filters.private
     & ~filters.bot,
 )
-async def vickstickerai(client: Client, message: Message):
+async def emiliastickerai(client: Client, message: Message):
 
    chatdb = MongoClient(MONGO_URL)
    chatai = chatdb["Word"]["WordDb"]   
 
    if not message.reply_to_message:
-       vickdb = MongoClient(MONGO_URL)
-       vick = vickdb["VickDb"]["Vick"] 
-       is_vick = vick.find_one({"chat_id": message.chat.id})
-       if not is_vick:
+       emiliadb = MongoClient(MONGO_URL)
+       emilia = emiliadb["EmiliaDb"]["Emilia"] 
+       is_emilia = emilia.find_one({"chat_id": message.chat.id})
+       if not is_emilia:
            await bot.send_chat_action(message.chat.id, "typing")
            K = []  
            is_chat = chatai.find({"word": message.sticker.file_unique_id})      
@@ -474,13 +476,13 @@ async def vickstickerai(client: Client, message: Message):
                    await message.reply_sticker(f"{hey}")
    
    if message.reply_to_message:
-       vickdb = MongoClient(MONGO_URL)
-       vick = vickdb["VickDb"]["Vick"] 
-       is_vick = vick.find_one({"chat_id": message.chat.id})
+       emiliadb = MongoClient(MONGO_URL)
+       emilia = emiliadb["EmiliaDb"]["Emilia"] 
+       is_emilia = emilia.find_one({"chat_id": message.chat.id})
        getme = await bot.get_me()
        bot_id = getme.id
        if message.reply_to_message.from_user.id == bot_id: 
-           if not is_vick:                    
+           if not is_emilia:                    
                await bot.send_chat_action(message.chat.id, "typing")
                K = []  
                is_chat = chatai.find({"word": message.text})
@@ -515,7 +517,7 @@ async def vickstickerai(client: Client, message: Message):
     & filters.private
     & ~filters.bot,
 )
-async def vickprivate(client: Client, message: Message):
+async def emiliaprivate(client: Client, message: Message):
 
    chatdb = MongoClient(MONGO_URL)
    chatai = chatdb["Word"]["WordDb"]
@@ -558,7 +560,7 @@ async def vickprivate(client: Client, message: Message):
     & filters.private
     & ~filters.bot,
 )
-async def vickprivatesticker(client: Client, message: Message):
+async def emiliaprivatesticker(client: Client, message: Message):
 
    chatdb = MongoClient(MONGO_URL)
    chatai = chatdb["Word"]["WordDb"] 
@@ -592,5 +594,5 @@ async def vickprivatesticker(client: Client, message: Message):
            if not Yo == "text":
                await message.reply_sticker(f"{hey}")
 
-print(f"{BOT_NAME} ɪs ᴀʟɪᴠᴇ! ɴᴏᴡ ғᴜᴄᴋ ᴏғғ! ᴀɴᴅ ɢᴏ ᴛᴏ @Wᴇ_ʀғʀɪᴇɴᴅs ʙɪᴛᴄʜ!!")      
+print(f"{BOT_NAME} ɪs ᴀʟɪᴠᴇ! ᴀʙʙ ɴɪᴋʟᴏ ᴊᴀʟᴅɪ ꜱᴇ ᴀɴᴅ ɢᴏ ᴛᴏ @PiyushXManagementSupport!!")      
 bot.run()
