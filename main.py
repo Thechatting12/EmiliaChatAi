@@ -147,7 +147,7 @@ HELP_READ = f"""
 """
 BACK = [
      [
-           InlineKeyboardButton(text= ʙᴀᴄᴋ ", callback_data="BACK"),
+           InlineKeyboardButton(text=" ʙᴀᴄᴋ ", callback_data="BACK"),
      ],
 ]
 HELP_BTN = [
