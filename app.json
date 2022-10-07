@@ -1,5 +1,5 @@
 {
-    "name": "Dev-Vick",    
+    "name": "Emilia Chat AI",    
     "env": {
         "BOT_TOKEN": {
             "description": "telegram bot token here",
@@ -29,43 +29,43 @@
             "description": "Your Support Group without @",
             "required": true
         },
-        "STKR": {
+        "STICKER": {
             "description": "Sticker for start ",
             "required": true
         },
-        "STKR1": {
+        "STICKER1": {
             "description": "Sticker for start ",
             "required": true
         },
-        "STKR2": {
+        "STICKER2": {
             "description": "Sticker for start ",
             "required": true
         },
-        "STKR3": {
+        "STICKER3": {
             "description": "Sticker for start ",
             "required": true
         },
-        "STKR4": {
+        "STICKER4": {
             "description": "Sticker for start ",
             "required": true
         },
-        "STKR5": {
+        "STICKER5": {
             "description": "Sticker for start ",
             "required": true
         },
-        "STKR6": {
+        "STICKER6": {
             "description": "Sticker for start ",
             "required": true
         },
-        "STKR7": {
+        "STICKER7": {
             "description": "Sticker for start ",
             "required": true
         },
-       "STKR8": {
+       "STICKER8": {
             "description": "Sticker for start ",
             "required": true
         },
-        "STKR9": {
+        "STICKER9": {
             "description": "Sticker for start ",
             "required": true
         },
