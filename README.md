@@ -1,15 +1,17 @@
-#EMILIAAI
+## EMILIAAI
 An Advanced AI Based Telegram Chatbot Open Sorce Code
 
-#LOGO
+## LOGO
 
+<img src="https://te.legra.ph/file/083affde246ca53c1a4e4.jpg" align="center" width="500" height="500"/>
 
 
 ## How To Host
 The easiest way to deploy this Bot
 • Enter your ```MONGO_URL```,```API_ID```,```API_HASH```,```BOT_TOKEN```,```BOT_USERNAME```,```OWNER_USERNAME```,```UPDATE_CHNL```,```SUPPORT_GRP```,```STKR```And```START_IMG```
 
-<p align="center"><a href="https://heroku.com/deploy?template=https://github.com/TeamPiyushRepos/EmiliaChatAi"> <img src="https://img.shields.io/badge/Deploy%20To%20Heroku-black?style=for-the-badge&logo=heroku" width="220" height="38.45"/></a></p>
+
+<p align="center"><a href="https://heroku.com/deploy?template=https://github.com/TeamPiyushRepos/EmiliaChatAi"> <img src="https://img.shields.io/badge/Deploy%20To%20Heroku-blueviolet?style=for-the-badge&logo=heroku" width="220" height="38.45"/></a></p>
  
 ### Reach Me
 
